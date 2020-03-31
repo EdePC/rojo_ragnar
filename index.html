@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Módulo 2. Ejercicio P2P 2. Descargar y Vincular fuentes</title>
+  <style>
+    @font-face {
+      font-family: Roboto;
+      src: url("fonts/Roboto-Regular.ttf");
+    }
+    @font-face {
+      font-family: Fira;
+      src: url("fonts/FiraSans-Regular.ttf");
+    }
+    body {
+      background: #85C17E;
+      font-family: Fira;
+      margin: 0 5%;
+      padding: 0;
+    }
+    h1, footer {
+      background: #1C672C;
+      border-radius: 10px;
+      color: #ffffff;
+      margin: 20px 0;
+      padding: 1.2%;
+      text-align: center;
+    }
+    div.intro, section.cancion {
+      background: #E6FFEB;
+      border-radius:10px;
+      font-family: Roboto;
+      font-size: 120%;
+      padding-bottom: 2%;
+      padding: 2%;
+    }
+    div.intro {
+      margin: 15px 0;
+    }
+    div.intro div {
+      height: 52px;
+    }
+    section.cancion {
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: center;
+    }
+    p.cita {
+      font-size: 0.8em;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+    }
+    table.audios {
+      margin: 15px auto;
+    }
+    table.audios td {
+      vertical-align: middle;
+      text-align: right;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Ragnar el Rojo</h1>
+    <div class="intro">Esta pieza está entre las favoritas de la gente de estas tierras y es una de las primeras que aprendí, Ragnar el Rojo:<br>
+      <table class="audios">
+        <tr>
+          <td><span>Audio versión masculina:</span></td>
+          <td><audio src="audio/El Rojo Ragnar mas.mp3" controls></audio></td>
+        </tr>
+        <tr>
+          <td><span>Audio versión femenina:</span></td>
+          <td><audio src="audio/El Rojo Ragnar fem.mp3" controls></audio></td>
+        </tr>
+      </table>
+    </div>
+    <section class="cancion">
+      <p>Quiero hablaros de un héroe: El Rojo Ragnar, un valiente muchacho de armas tomar.</p>
+      <p>Le gustaba el buen vino, también el buen yantar, relatar sus hazañas por tierra y por mar.</p>
+      <p>Pero un día la escudera Matilda llegó, lo miró cara a cara y sin más le espetó:</p>
+      <p><em>"Eres un presumido y no paras de hablar. ¡Deja de beber vino y ponte a pelear!"</em></p>
+      <p>Empezaron la lucha Matilda y Ragnar, con fiereza se oyeron espadas chocar.</p>
+      <p>Y así acaba la historia del rojo Ragnar, que perdió la cabeza por fanfarronear.</p>
+      <p class="cita">El Rojo Ragnar - Canción Nórdica</p>
+    </section>
+    <footer>Fin de la presentación</footer>
+  </body>
+</html>
